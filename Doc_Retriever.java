@@ -1,7 +1,5 @@
 package DocumentRetriever;
 
-//API_KEY AIzaSyCb9eOoGaGksDFbkixQbkQb7FWkGQ7znwQ
-//search engine ID 021560b323a9c4b2d
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -20,8 +18,8 @@ public class UI implements ActionListener{
     JButton openbutton;
     JComboBox<String> comboBox;
     GridBagConstraints gbc=new GridBagConstraints();
-    private static final String API_KEY = "AIzaSyCb9eOoGaGksDFbkixQbkQb7FWkGQ7znwQ";
-    private static final String SEARCH_ENGINE_ID = "021560b323a9c4b2d";
+    private static final String API_KEY = "<YOUR_API_KEY>";
+    private static final String SEARCH_ENGINE_ID = "<SEARCH_ENGINE_ID>";
 
     UI(){
     frame=new JFrame("Document Retireiver");
