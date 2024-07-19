@@ -1,4 +1,4 @@
-Document Retriever
+#Document Retriever
 Document Retriever is a Java-based application that takes one-word prompts, scrapes Google for relevant PDF files, and allows you to view them. This tool is useful for quickly finding and accessing PDF documents related to specific keywords.
 
 Features
